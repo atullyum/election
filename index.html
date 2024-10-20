@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Count</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .party-bjp { color: #ff9933; }
+        .party-congress { color: #0000ff; }
+        .party-aap { color: #009688; }
+        .party-others { color: #808080; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vote Count</h1>
+        <table>
+            <tr>
+                <th>Party</th>
+                <th>Votes</th>
+            </tr>
+            <tr>
+                <td class="party-bjp">BJP</td>
+                <td>1,000,000</td>
+            </tr>
+            <tr>
+                <td class="party-congress">Congress</td>
+                <td>800,000</td>
+            </tr>
+            <tr>
+                <td class="party-aap">AAP</td>
+                <td>600,000</td>
+            </tr>
+            <tr>
+                <td class="party-others">Others</td>
+                <td>400,000</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
